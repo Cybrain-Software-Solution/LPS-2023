@@ -1,0 +1,93 @@
+@media(min-width: 320px) and (max-width: 500px) {
+
+  .sticky-wrapper .untree_co--site-nav .untree_co--site-logo {
+    font-size: 16px;
+    line-height: 44px;
+}
+.header-social-info {
+  float: left;
+  display: inline-flex;
+  width: 100%;
+}
+  .sticky-wrapper.is-sticky .untree_co--site-nav {
+    /* top: 4% !important; */
+    width: 100% !important;
+}
+  .sticky-wrapper {
+    position: static;
+}
+.sticky-wrapper .untree_co--site-nav {
+  background: #182650;
+}
+  .logo-wrap img {
+    width: 23% !important;
+}
+.sticky-wrapper .untree_co--site-nav .logo-wrap {
+  width: 100%;
+}
+.sticky-wrapper .untree_co--site-nav .site-nav-ul {
+  text-align: left !important;;
+}
+.untree_co--site-section {
+  padding: 2rem 0 ;
+}
+.sticky-wrapper .untree_co--site-nav {
+  position: static;
+}
+.section-heading h3 {
+  font-size: 2rem ;
+}
+.pb-5, .py-5 {
+  padding-bottom: 1rem !important;
+}
+.suite-wrap.overlap-image-1 .suite .image-stack .image-stack-item .img-fluid.pic1 {
+  height: 250px;
+}
+.suite-wrap.overlap-image-1 .suite .image-stack .image-stack-item img {
+  height: 300px ;
+}
+.suite-excerpt p {
+  text-align: justify;
+}
+.suite-wrap.overlap-image-1 .suite-contents {
+  margin-top: 30% ;
+}
+.suite-wrap.overlap-image-2 .suite .image-stack .image-stack-item img {
+  height: 350px;
+}
+.suite-wrap.overlap-image-2 .suite-contents {
+  margin-top: 30% ;
+}
+.suite-wrap.overlap-image-2 .suite-contents .suite-title {
+  font-size: 2rem ;}
+  .suite-wrap.overlap-image-2 .suite-contents .suite-excerpt {
+    padding-right: 0px !important;
+}
+.media-29191 {
+  padding: 20px;
+}
+.slide-thumb .carousel-caption {
+  top: 0;
+}
+.slide-thumb .carousel-caption p {
+  font-size: 15px;
+}
+.owl-carousel .owl-item .carousel-caption img {
+  width: 40px;
+  margin-top: 10px !important;
+}
+.single-clients-logo {
+  flex-basis: 40%;
+  height: 80px;
+  width: 56%;
+  display: -webkit-box;
+  padding: 10px;
+}
+.gallery-hover-overlay {
+  padding: 20px;
+}
+.sticky-wrapper .untree_co--site-nav .site-nav-ul > li > a {
+  padding: 5px 5px;
+}
+
+}
