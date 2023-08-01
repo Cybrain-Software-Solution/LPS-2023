@@ -1,6 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap');
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Archivo', sans-serif !important;
   background-color: #fff;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.5);
@@ -47,7 +47,6 @@ body.offcanvas:before {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Cormorant Garamond", serif;
   color: #000;
 }
 
@@ -152,7 +151,6 @@ a, a:hover {
   height: 70px;
   width: 100%;
   padding: 20px 40px;
-  font-family: "Cormorant Garamond", serif;
   font-size: 2rem;
   text-align: center;
   border: none;
@@ -188,7 +186,6 @@ a, a:hover {
 }
 
 .search-wrap .heading {
-  font-family: "Cormorant Garamond", serif;
   font-size: 3rem;
   text-align: center;
 }
@@ -237,7 +234,6 @@ a, a:hover {
   font-size: 5rem;
   color: #fff;
   line-height: 0;
-  font-family: "Cormorant Garamond", serif;
   font-weight: 900;
 }
 
@@ -284,7 +280,6 @@ a, a:hover {
   font-size: 5rem;
   color: #000;
   line-height: 0;
-  font-family: "Cormorant Garamond", serif;
   font-weight: 900;
 }
 
@@ -498,8 +493,7 @@ a, a:hover {
   font-size: 30px;
   margin-bottom: 30px;
   line-height: 0;
-  font-weight: 700;
-  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
 }
 
 .suite-wrap.overlap-image-1 .suite-contents .suite-title > span {
@@ -519,7 +513,7 @@ a, a:hover {
 }
 
 .suite-wrap.overlap-image-1 .suite-contents .suite-excerpt {
-  color: rgb(0 0 0 / 63%);
+  color: rgb(0 0 0 / 70%);
   line-height: 1.7;
 }
 
@@ -601,11 +595,10 @@ a, a:hover {
 
 .suite-wrap.overlap-image-2 .suite-contents .suite-title {
   color: #000;
-  font-size: 3rem;
+  font-size: 2.5em;
   margin-bottom: 30px;
   line-height: 0;
-  font-weight: 700;
-  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
 }
 
 .suite-wrap.overlap-image-2 .suite-contents .suite-title > span {
@@ -625,20 +618,18 @@ a, a:hover {
 }
 
 .suite-wrap.overlap-image-2 .suite-contents .suite-excerpt {
-  color: rgb(0 0 0 / 65%);
+  color: rgb(0 0 0 / 81%);
   line-height: 1.7;
 }
 
 /* Heading */
 .section-heading h3 {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
   color: #000;
   position: relative;
   padding-bottom: 20px;
   margin-bottom: 20px;
-  font-weight: 700;
-  font-family: "Cormorant Garamond", serif;
 }
 
 .section-heading h3:after {
@@ -687,13 +678,16 @@ a, a:hover {
 .readmore.bg {
     color: #000;
     text-transform: uppercase;
-    font-size: 11px;
-    letter-spacing: .2rem;
-    padding: 10px 0;
+    font-size: 12px;
+    /* letter-spacing: .2rem; */
+    /* padding: 10px 0; */
+    /* box-shadow: 1px 2px 4px #00000038; */
+    border-radius: 100px;
     font-weight: 700;
     display: inline-block;
     position: relative;
-    background: url(../images/read-bg.png) no-repeat;
+    /* padding: 10px; */
+    /* background: url(../images/read-bg.png) no-repeat; */
     background-size: contain;
     /* position: absolute; */
     /* opacity: 0.5; */
@@ -706,6 +700,7 @@ a, a:hover {
   height: 1px;
   background: #000;
   bottom: 10px;
+  /* padding: 10px; */
   width: 0%;
   -webkit-transition: .3s width ease-in-out;
   -o-transition: .3s width ease-in-out;
@@ -905,7 +900,7 @@ a, a:hover {
 }
 
 .sticky-wrapper .untree_co--site-nav .site-nav-ul > li > a {
-  padding: 5px 8px;
+  padding: 5px 6px;
   display: block;
   color: #000;
   text-transform: uppercase;
@@ -1108,7 +1103,7 @@ a, a:hover {
 
 .sticky-wrapper.is-sticky .untree_co--site-nav .site-nav-ul li a {
   color: #000;
-  padding: 8px 8px;
+  padding: 8px 6px;
 }
 
 .sticky-wrapper.is-sticky .untree_co--site-nav .site-nav-ul > li > a:before {
@@ -1458,7 +1453,7 @@ span[data-jarallax-element] {
 
 .post-entry h3 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   color: #000;
 }
 
@@ -1477,7 +1472,6 @@ span[data-jarallax-element] {
 .cta h3 {
   font-size: 2rem;
   color: #000;
-  font-family: "Cormorant Garamond", serif;
 }
 
 .cta h3 a {
@@ -1749,8 +1743,8 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
 }
 
 .media-29191 {
-  /* border: 1px solid #efefef; */
-  padding: 40px;
+  border: 1px solid #efefef;
+  padding: 30px;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
@@ -1776,7 +1770,7 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
 
 .media-29191 h3 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .custom-row-02192 {
@@ -1849,7 +1843,6 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
 
 .room-animate .room-price {
   font-size: 3rem;
-  font-family: "Cormorant Garamond", serif;
   color: #000;
   line-height: 1;
   margin-bottom: 30px;
@@ -1967,11 +1960,12 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
   margin-right: 2px;
   width: 50px;
   height: 50px;
-  background: url(../images/yello-plain.png) transparent;
+  /* background: url(../images/yello-plain.png) transparent; */
   background-size: contain;
   background-position: center;
   position: relative;
   z-index: 1050;
+  /* border-radius: 100px; */
 }
 
 .owl-gallery-big .owl-nav .owl-next {
@@ -1979,8 +1973,8 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
   margin-right: 2px;
   width: 50px;
   height: 50px;
-  background: url(../images/yello-plain.png) transparent;
- transform: rotate(180deg);
+  /* background: url(../images/yello-plain.png) transparent; */
+  transform: rotate(180deg);
   background-size: contain;
   background-position: center;
   position: relative;
@@ -1996,7 +1990,7 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
 .owl-gallery-big .owl-nav .owl-prev > span,
 .owl-gallery-big .owl-nav .owl-next > span {
   position: absolute;
-  color: #fff;
+  color: #000;
   font-size: 20px;
   left: 50%;
   top: 50%;
@@ -2006,7 +2000,6 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
 }
 
 .slider-counter {
-  font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   position: absolute;
   left: 0px;
@@ -2046,7 +2039,6 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
 .media-29190 p {
   font-size: 2rem;
   line-height: 1.5;
-  font-family: "Cormorant Garamond", serif;
 }
 
 .media-29190 p:last-child {
@@ -2235,7 +2227,7 @@ video {
     color: #418d47;
     margin-bottom: 10px;
     font-size: 21px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .fplus-portfolio .single_gallery_item:hover .gallery-hover-overlay {
@@ -2308,6 +2300,7 @@ video {
   display: table;
   vertical-align: middle;
   position: relative;
+  display: none;
 }
 .green {
   background: url(../images/Shape-1.png) no-repeat center center;
@@ -2331,22 +2324,23 @@ video {
   position: fixed;
   top: 0;
   right: 0;
-  width: 116px;
-  background: url(../images/green-plain.png) no-repeat;
+  width: 110px;
+  background: #4b944c;
+  /* background: url(../images/green-plain.png) no-repeat; */
   /* background-size: contain; */
-  height: 150px;
+  height: 100px;
   z-index: 1050;
   background-position: 7px -299%;
   /* transform: rotate(1deg); */
 }
 .fixed-btn a {
     position: relative;
-    top: 17px;
-    left: 10px;
+    top: 25px;
     text-align: center;
     color: #fff;
-    line-height: 18px;
+    /* line-height: 17px; */
     display: block;
+    line-height: 20px;
 }
 .hero-content-area {
   vertical-align: middle;
@@ -2358,6 +2352,7 @@ video {
   left: 0;
   z-index: 920;
   width: 700px;
+  display: none;
 }
 
 .hero-content-area .hero-text h2 {
@@ -2379,4 +2374,19 @@ video {
 
 .hero-content-area .hero-text .readmore:hover:before {
     background: #fff;
+}
+.fixed-btn:hover {
+    background: #19305b;
+}
+
+
+.sticky-wrapper.is-sticky .fixed-btn {
+    height: 77px;
+}
+
+.sticky-wrapper.is-sticky .fixed-btn a {
+    top: 16px;
+}
+.cat-bx {
+  margin-bottom: 50px;
 }
