@@ -904,12 +904,13 @@ a, a:hover {
 }
 
 .sticky-wrapper .untree_co--site-nav .site-nav-ul > li > a {
-  padding: 5px 6px;
+  padding: 5px 6px !important;
   display: block;
   color: #000;
   text-transform: uppercase;
   letter-spacing: .05rem;
   font-size: 12px;
+  margin-top: 4px;
   position: relative;
 }
 
@@ -1660,7 +1661,7 @@ span[data-jarallax-element] {
 footer {
   padding: 6rem 0 1em 0;
   font-size: 14px;
-  padding: 60px 0 10px;
+  padding: 50px 0 10px;
   background-color: #151940;
   position: relative;
   z-index: 1;
@@ -2540,6 +2541,7 @@ video {
 
 .fplus-contact-area {
   position: relative;
+  background: #151940;
   z-index: 1;
   min-height: 237.5px;
   padding-bottom: 0px;
@@ -2787,4 +2789,7 @@ video {
 .client-slider {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+footer p {
+  margin: 0;
 }
