@@ -317,7 +317,7 @@ setTimeout(function() {
    
 		 owlHeroSlider.owlCarousel({
 		   center: false,
-		   items: 1,
+		   items: 2,
 		   loop: true,
 		   stagePadding: 0,
 		   margin: 0,
@@ -366,7 +366,7 @@ setTimeout(function() {
    
 	   $('.slide-one-item').owlCarousel({
 		   center: false,
-		   items: 1,
+		   items: 2,
 		   loop: true,
 		   stagePadding: 0,
 		   margin: 0,
@@ -466,3 +466,28 @@ setTimeout(function() {
    
    });
    
+
+
+
+   $(document).ready(function(){
+	$('.client-slider').slick({
+	  slidesToShow: 6,
+	  slidesToScroll: 1,
+	  autoplay: true,
+	  autoplaySpeed: 900,
+	  arrows: false,
+	  dots: false,
+	  pauseOnHover: true,
+	  responsive: [{
+		breakpoint: 768,
+		settings: {
+		  slidesToShow: 4
+		}
+	  }, {
+		breakpoint: 520,
+		settings: {
+		  slidesToShow: 3
+		}
+	  }]
+	});
+  });
